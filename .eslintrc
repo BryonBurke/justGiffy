@@ -3,15 +3,13 @@
     "ecmaVersion": 2017,
     "sourceType": "module"
   },
-  "env": {
-    "node": true,
-    "commonjs": true
-  },
   "extends": "eslint:recommended",
   "env": {
     "es6": true,
     "browser": true,
-    "jquery": true
+    "jquery": true,
+    "node": true,
+    "commonjs": true
   },
   "rules": {
     "semi": 1,

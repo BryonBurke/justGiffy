@@ -20,7 +20,7 @@ $(document).ready(function(){
     apiFetch.getGif(searchTerm)
       .then((url) => {
         $('#gif').attr('src', url);
-      })
+      });
   });
 
   const apiFetch = new ApiFetch();
